@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="logo">YouTube</div>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search">
+    <button onclick="searchVideos()">🔍</button>
+  </div>
+
+  <div class="user-icons">
+    <span>🔔</span>
+    <span>👤</span>
+  </div>
+</header>
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <ul>
+    <li>🏠 Home</li>
+    <li>🔥 Trending</li>
+    <li>📺 Subscriptions</li>
+    <li>📚 Library</li>
+  </ul>
+</aside>
+
+<!-- MAIN CONTENT -->
+<main class="main-content" id="video-container">
+  <!-- Videos dynamically inserted -->
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
